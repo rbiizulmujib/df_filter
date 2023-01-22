@@ -1,8 +1,6 @@
 import pandas as pd
 import streamlit as st
-from st_aggrid import AgGrid, JsCode, GridOptionsBuilder
 from io import StringIO
-import plotly.graph_objects as go
 from pandas.api.types import (
     is_categorical_dtype,
     is_datetime64_any_dtype,
